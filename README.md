@@ -50,8 +50,7 @@
    - boolean변수를 하나두어서 구별
   
 !gravity(./mdimg/gravity.png)
-gravity
-git s
+
 ### 4. 지형지물
 - 백그라운드 맵
   - BufferedImage의 ImageIo.read로 그림 파일을 읽어오는 방식을 이용
