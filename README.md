@@ -49,7 +49,7 @@
  - 점프의 하강쓰레드와 중력쓰레드 동시실행 방지
    - boolean변수를 하나두어서 구별
   
-!gravity(./mdimg/gravity.png)
+![gravity](./mdimg/gravity.png)
 
 ### 4. 지형지물
 - 백그라운드 맵
