@@ -49,8 +49,9 @@
  - 점프의 하강쓰레드와 중력쓰레드 동시실행 방지
    - boolean변수를 하나두어서 구별
   
-![gravity](./mdimg/gravity.png)
-
+!gravity(./mdimg/gravity.png)
+gravity
+git s
 ### 4. 지형지물
 - 백그라운드 맵
   - BufferedImage의 ImageIo.read로 그림 파일을 읽어오는 방식을 이용
@@ -85,3 +86,5 @@
 - 스테이지 카운터에 알맞은 라벨 출력
 
 ![stageLabel](./mdimg/stageLabel.png)
+
+블로그 주소 : https://blog.naver.com/skjin20800
