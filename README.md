@@ -1,11 +1,19 @@
+
 # JumpKing-Game
 
 
 안녕하세요. 진경빈입니다.
 이번에는 2주동안 점프킹을 제작했는데요
 어떤 기능들을 구현했는지 알아보도록 하겠습니다
+## PPT
 
-## First Player
+![PPT](./mdimg/PPT.png)
+[JumpKing.pptx](./점프킹소개.pptx)
+
+
+## 시연연상 (그림을 클릭하세요)
+[![Video Label](http://img.youtube.com/vi/6NPGdy5xQmo/0.jpg)](https://youtu.be/6NPGdy5xQmo)
+## 플레이어
 
 ### 플레이어의 기능
 
@@ -51,7 +59,7 @@
   
 ![gravity](./mdimg/gravity.png)
 
-### 4. 지형지물
+## 지형지물
 - 백그라운드 맵
   - BufferedImage의 ImageIo.read로 그림 파일을 읽어오는 방식을 이용
   - Color클래스로 getRGB를 이용해 RGB색상을 읽어옴
@@ -67,7 +75,7 @@
 
 ![map](./mdimg/map.png)
 
-### 공주
+## 공주
 - 공주 gif 효과 주기
   - 3스테이지 전환시 공주 객체생성
   - 생성시 이미지 변환 쓰레드 자동실행
@@ -79,14 +87,16 @@
 ![princess](./mdimg/princess.png)
 ![princessJPanel](./mdimg/princessJPanel.png)
 
-### 스테이지 변환
+## 스테이지 변환
 - 플레이어가 특정 Y값 도달시 다음 스테이지 변경
 - 각 스페이지마다 스테이지 카운터 적용
 - 스테이지 카운터에 알맞은 라벨 출력
 
 ![stageLabel](./mdimg/stageLabel.png)
 
-### 클레스 다이어그램
+## 클레스 다이어그램
 ![ClassDiagram](./mdimg/ClassDiagram.png)
+
+
 
 블로그 주소 : https://blog.naver.com/skjin20800
