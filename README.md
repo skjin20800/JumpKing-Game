@@ -5,10 +5,9 @@
 안녕하세요. 진경빈입니다.
 이번에는 2주동안 점프킹을 제작했는데요
 어떤 기능들을 구현했는지 알아보도록 하겠습니다
-## PPT
+## PPT (그림을 클릭하세요)
 
-![PPT](./mdimg/PPT.png)
-[JumpKing.pptx](./점프킹소개.pptx)
+![PPT](./mdimg/PPT.png)(https://github.com/skjin20800/JumpKing-Game/blob/master/%EC%A0%90%ED%94%84%ED%82%B9%EC%86%8C%EA%B0%9C.pptx?raw=true)
 
 
 ## 시연연상 (그림을 클릭하세요)
