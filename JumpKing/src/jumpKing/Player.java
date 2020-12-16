@@ -154,7 +154,7 @@ public class Player extends JLabel {
 			}
 		}
 	}
-
+	
 	class DownMove implements Runnable {
 		@Override
 		public void run() {
@@ -284,7 +284,7 @@ public class Player extends JLabel {
 			jumpDown(); // 다운 메서드 호출
 		}
 	}
-
+	
 	class ThJumpDown implements Runnable {
 		@Override
 		public void run() {

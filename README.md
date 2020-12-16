@@ -86,4 +86,7 @@
 
 ![stageLabel](./mdimg/stageLabel.png)
 
+### 클레스 다이어그램
+![ClassDiagram](./mdimg/ClassDiagram.png)
+
 블로그 주소 : https://blog.naver.com/skjin20800

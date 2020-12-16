@@ -220,11 +220,6 @@ public class JumpKingApp extends JFrame implements Initable {
 		remove(princess);
 	}
 
-
-	
-	
-	
-	
 	public int getImgCount() {
 		return imgCount;
 	}
