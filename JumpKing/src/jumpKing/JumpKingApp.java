@@ -1,7 +1,6 @@
 package jumpKing;
 
 import java.awt.Color;
-import java.awt.Container;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -11,8 +10,6 @@ import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextPane;
 
 public class JumpKingApp extends JFrame implements Initable {
 
@@ -102,7 +99,7 @@ public class JumpKingApp extends JFrame implements Initable {
 
 	@Override
 	public void setting() {
-		setTitle("버블버블");
+		setTitle("점프킹");
 		setSize(1080, 607);
 		
 		defalutPanel.setBounds(190, 300, 700, 200);
@@ -202,7 +199,7 @@ public class JumpKingApp extends JFrame implements Initable {
 				} catch (Exception e) {
 				}
 				if (player.getX() < (princess.getX()+25) && (princess.getX()+25) < (player.getX() + 55)
-						&& (player.getY()-20) < (princess.getY()+50) && (princess.getY()+50) < (player.getY() + 55)&&
+						&& (player.getY()-20) < (princess.getY()+50) && (princess.getY()+50) < (player.getY() + 70)&&
 						clear == 0 && imgCount==3) {
 					System.out.println("공주사마!!");
 					defalutPanel.setVisible(true);
