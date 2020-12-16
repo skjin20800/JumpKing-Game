@@ -11,6 +11,11 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+// 점프킹앱 클래스입니다.
+// 플레이어를 생성하고 조작하는역할을합니다.
+// 픽셀체크와, 공주를 생성합니다.
+// 공주와 플레이어와 충돌시 패널을 출력합니다.
+
 public class JumpKingApp extends JFrame implements Initable {
 
 	// 컨텍스트 저장
@@ -105,7 +110,6 @@ public class JumpKingApp extends JFrame implements Initable {
 		defalutPanel.setBounds(190, 300, 700, 200);
 		defalutPanel.getLaName().setText("공주");
 		defalutPanel.getJtaContent().setText("구해주셔서감사합니다");
-		
 		
 		la1Stage.setBounds(450, 80, 300, 400);
 		la1Stage.setForeground(Color.white);

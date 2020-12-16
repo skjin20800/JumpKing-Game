@@ -5,6 +5,8 @@ import javax.swing.JLabel;
 
 import lombok.Data;
 
+// 공주 클래스입니다.
+// 쓰레드가 돌면서 이미지가 변환됩니다.
 @Data
 public class Princess extends JLabel {
 	public Princess princess = this; // 플레이어 콘텍스트

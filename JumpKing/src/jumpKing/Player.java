@@ -5,7 +5,8 @@ import javax.swing.JLabel;
 
 import lombok.Data;
 
-// 롬북 잘안먹어서 수동으로 getter,setter 생성
+// 플레이어 클래스입니다.
+// 좌,우이동 점프가 구현되어있습니다.
 
 @Data
 public class Player extends JLabel {

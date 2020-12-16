@@ -12,6 +12,8 @@ import javax.swing.JTextArea;
 
 import lombok.Data;
 
+// 디폴트패널 클래스입니다.
+// 패널의 기본값이 저장되어있습니다.
 @Data
 class DefalutPanel extends JPanel{
 
@@ -75,9 +77,7 @@ private JumpKingApp jumpkingApp;
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				jumpkingApp.setFocusable(true);
-				setVisible(false);
-				
-				
+				setVisible(false);				
 			}
 		});
 	}

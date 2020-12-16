@@ -7,10 +7,8 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
+// 픽셀체크 클레스입니다.
+// 플레이어의 위치에따라 색을 판단해줍니다
 public class PixelCheck implements Runnable {
 	private int playerX, playerY, playerY2, playerX3, playerY3, playerX4, playerY4, playerX5,playerY5;
 	private int red1, green1, blue1, alpha1;// RGB,투명도 변수 //투명도는 안씀 참고로 넣어놓는거
