@@ -1,4 +1,5 @@
 
+
 # JumpKing-Game
 
 
@@ -45,9 +46,12 @@
      + 상승 쓰레드
   - 하강 쓰레드 기능
     + 하강
+ - 포물선 점프
+    - 상승, 하강 쓰레드 분기별 속도 차이 존재
 
 ![jump1](./mdimg/jump1.png)
 ![jump2](./mdimg/jump2.png)
+![jump3](./mdimg/jump3.png)
 
 ### 3. 중력기능
 - 중력 발동시 방향 조작 불가능
@@ -73,6 +77,11 @@
    - 플레이어의 Y값을 맨위로 변환
 
 ![map](./mdimg/map.png)
+
+## 픽셀 체크포인트
+- 5가지의 픽셀 판정
+	-  머리, 왼쪽, 오른쪽, 땅, 땅 보조 
+![pixelCheck](./mdimg/pixelCheck.png)
 
 ## 공주
 - 공주 gif 효과 주기
