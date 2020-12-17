@@ -1,5 +1,6 @@
 
 
+
 # JumpKing-Game
 
 
@@ -26,6 +27,7 @@
 - 좌, 우 이동 부드럽게
 - 좌,우 각각 독립 쓰레드이용
 - KeyListener사용
+- 벽 인식시  이동불가
 
 ![move](./mdimg/move.png)
 
